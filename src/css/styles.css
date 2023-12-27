@@ -1,0 +1,505 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.bhromaon{
+    padding: 277px 0 142px;
+    background: url("../images/home/HomeBg.png") center/cover no-repeat;
+}
+
+.bhromaon-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bhromaon-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+
+.bhromaon-subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.bhromaon-search{
+    width: 656px;
+    height: 63px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 0 auto;
+}
+
+.bhromaon-input{
+    width: 503px;
+    height: 100%;
+    padding: 19px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+.bhromaon-search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    background: #5474FD;
+    padding: 20px 20px 13px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bhromaon-btn{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+    background: transparent;
+    position: relative;
+    margin-top: 107px;
+}
+
+.bhromaon-btn-arrow{
+    position: absolute;
+    bottom: -25px;
+    left: 45px;
+}
+
+.header{
+    background: #5474FD;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-list{
+    display: flex;
+    column-gap: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-item{
+    transition: 0.7s;
+}
+
+.header-item:hover{
+    color: khaki;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.choose{
+    background: url("../images/choose/ChooseBg.png") center/cover no-repeat;
+    padding: 118px 0 118px;
+}
+
+.choose-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 50px;
+}
+
+.choose-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.choose-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+
+.choose-btn{
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #5474FD;
+    background: #5474FD;
+    width: 228px;
+    height: 63px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.choose-btn:hover{
+    color: lightcoral;
+    transition: 1s;
+}
+
+.choose-right{
+    width: 350px;
+}
+
+.choose-img1{
+    position: relative;
+    left: -100px;
+    bottom: 10px;
+}
+
+.choose-img2{
+
+}
+
+.icon{
+    padding: 100px 0 115px;
+    background: #333333;
+}
+
+.icon-row{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.icon-search{
+    font-size: 40px;
+    color: #5474FD;
+}
+
+.icon-ok-circled2{
+    font-size: 40px;
+    color: #e04b22;
+    background: #333333;
+    z-index: 2;
+}
+
+.icon-thumbs-up{
+    font-size: 40px;
+    color: #0b94e3;
+}
+
+.card-icon-title{
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #E8E8E8;
+}
+
+.icon-line{
+    width: 500px;
+    position: absolute;
+    top: -35px;
+    right: 300px;
+}
+
+.spain{
+    width: 100vw;
+    padding: 227px 0 99px;
+    position: relative;
+    /*background: url("../images/spain/bg.png") center/cover no-repeat;*/
+}
+
+.spain-video{
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.spain-card{
+    width: 543px;
+    height: 374px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding: 52px 32px 0;
+}
+
+.spain-card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+.spain-card-subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 23px 0 13px;
+}
+
+.spain-card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+}
+
+.spain-card-btn{
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 0;
+    background: #5474FD;
+    width: 228px;
+    height: 63px;
+    text-align: center;
+    transition: 1.5s;
+    border: none;
+}
+
+.spain-card-btn:hover{
+    color: red;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.spain2{
+    padding: 227px 0 99px;
+    background: url("../images/spain2/bg.png") center/cover no-repeat;
+}
+
+.spain2-card{
+    width: 543px;
+    height: 374px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding: 52px 32px 0;
+    position: relative;
+    left: 550px;
+}
+
+.spain2-card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+.spain2-card-subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 23px 0 13px;
+}
+
+.spain2-card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+}
+
+.spain2-card-btn{
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 0;
+    background: #5474FD;
+    width: 228px;
+    height: 63px;
+    text-align: center;
+    transition: 1s;
+    border: none;
+}
+
+.spain2-card-btn:hover{
+    color: red;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.tourist{
+    padding: 128px 0 199px;
+    background: url("../images/tourist/bg.png") center/cover no-repeat;
+}
+
+.tourist-title{
+    font-family: 'Aleo', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 91px;
+}
+
+.tourist-block{
+    display: flex;
+
+}
+
+.tourist-right{
+    display: flex;
+    flex-direction: column;
+    width: 668px;
+    height: 284px;
+    background: #333333;
+    padding: 49px 25px 39px 62px;
+    row-gap: 8px;
+}
+
+.tourist-right-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.tourist-right-info{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    color: #FEFEFE;
+}
+
+.footer{
+    padding: 122px 0 47px;
+    background: #232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.footer-list{
+    display: flex;
+    column-gap: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
